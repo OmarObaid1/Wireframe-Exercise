@@ -1,0 +1,85 @@
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    
+
+}
+nav{
+   background-color: rgb(46, 45, 45);
+}
+nav ul li a{
+    color: lightslategrey;
+    text-decoration: none;
+    
+
+    
+}
+.NavLItem{
+    margin: 40px;
+    padding: 30px 50px 30px 50px ;
+
+}
+#secPic{
+    text-align: center;
+    margin: 20px;
+
+    
+
+}
+#thirdPic1{
+    text-align: center;
+    margin-left: 195px;
+    padding-bottom: 30px;
+    float: left;
+}
+#thirdPic2{
+    text-align: center;
+    margin-right: 190px;
+    padding-bottom: 30px;
+    float: right;
+}
+#thirdPic3{
+    text-align: center;
+    margin-right: 110px;
+    padding-bottom: 30px;
+    
+}
+
+
+#fourPic{
+    float: left;
+    margin-left: 195px;
+    width: 480px;
+
+}
+ p {
+    height: 320px;
+    overflow: scroll;
+    line-height: 25px;
+    margin: 10px;
+    
+}
+ button {
+    border: none;
+    font-size: 20px;
+    color: rgb(19, 2, 255);
+    padding: 30px 10px;
+    
+ }
+
+ button:hover {
+    background: black;
+}
+
+footer{
+    clear : both;
+    height: 150px;
+    background: rgb(43, 43, 43);
+    margin-bottom: 50px;
+}
+#par{
+    margin: 20px;
+    width: 400;
+    padding-left: 20px;
+}
