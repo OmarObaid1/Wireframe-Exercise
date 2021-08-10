@@ -1,56 +1,71 @@
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-    margin: 10px;
-    
+header {
+    background-color: rgb(83, 81, 81); 
+}
 
-}
-nav{
-   background-color: rgb(46, 45, 45);
-}
-nav ul li a{
-    color: lightslategrey;
-    text-decoration: none;
-    
+ header nav {    
+     display: flex;     width: 100%;
+} 
 
-    
-}
-.NavLItem{
-    margin: 40px;
-    padding: 30px 50px 30px 50px ;
+ header nav ul {     
+     width: 50%;     
+     float: right;     
+     padding-top: 45px;     
+     margin-left: 70px; 
 
-}
-#secPic{
+} 
+ header nav ul li {          
+     display: inline;          
+     padding: 40px;     
+     margin-left: 5px;     
+     margin-right: 0px;     
+     color: white;     
+     /* font-size: 20px;  */
+    }
+ 
+ header nav div{     
+     float: left;     
+     margin: 10px 0px 10px 280px;  }
+
+main section:nth-child(1)
+ {
     text-align: center;
     margin: 20px;
-
-    
-
-}
-#thirdPic1{
+ }
+main section:nth-child(2){
     text-align: center;
     margin-left: 195px;
     padding-bottom: 30px;
     float: left;
+
+    
+
 }
-#thirdPic2{
+main section:nth-child(3){
     text-align: center;
     margin-right: 190px;
     padding-bottom: 30px;
     float: right;
+    
 }
-#thirdPic3{
+main section:nth-child(4){
     text-align: center;
     margin-right: 110px;
     padding-bottom: 30px;
+  
+}
+main section:nth-child(5){
+    float: left;
+    margin-left: 195px;
+    width: 480px;
     
 }
 
 
-#fourPic{
-    float: left;
-    margin-left: 195px;
-    width: 480px;
+main section:nth-child(6){
+    margin: 20px;
+    width: 400;
+    padding-left: 20px;
+    
 
 }
  p {
@@ -78,8 +93,8 @@ footer{
     background: rgb(43, 43, 43);
     margin-bottom: 50px;
 }
-#par{
+/* main div h2 p:nth-child(7){
     margin: 20px;
     width: 400;
     padding-left: 20px;
-}
+} */
